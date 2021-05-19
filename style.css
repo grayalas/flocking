@@ -1,0 +1,21 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background-color: #ffffff;
+}
+
+.shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* bottom: 0;
+  right: 0; */
+  width: 1200px;
+  height: 800px;
+  z-index: 99;
+  -moz-box-shadow: inset 0px 0px 150px 150px #ffffff;
+  -webkit-box-shadow: inset 0px 0px 150px 150px #ffffff;
+  box-shadow: inset 0px 0px 150px 150px #ffffff;
+}
