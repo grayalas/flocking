@@ -6,7 +6,7 @@ let sizeTheta = 0.0;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  background(252);
+  background(247, 227, 46);
   smooth();
 
   // colorMode(HSB, 60);
@@ -18,14 +18,14 @@ function setup() {
 }
 
 function draw() {
-  fill(255, 0, 0);
-  stroke(252, 25);
+  fill(232, 39, 93);
+  stroke(247, 227, 46, 25);
   if (mouseIsPressed) {
-    background(252, 0);
-    stroke(252, 25);
+    background(247, 227, 46, 0);
+    stroke(247, 227, 46, 25);
   } else {
-    background(252, 25);
-    stroke(252);
+    background(247, 227, 46, 25);
+    stroke(247, 227, 46);
   }
 
   const controls = {
