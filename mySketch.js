@@ -24,7 +24,7 @@ function draw() {
     background(247, 227, 46, 0);
     stroke(247, 227, 46, 25);
   } else {
-    background(247, 227, 46, 25);
+    background(247, 227, 46, 90);
     stroke(247, 227, 46);
   }
 
